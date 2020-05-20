@@ -1,3 +1,1 @@
-# Who are you
-
-# Private place
+# Git is difficult

@@ -4,17 +4,19 @@ int main()
 {
     int t;
     cin >> t;
-    while (t--)
+    for (int i = 0; i < t; i++)
     {
-        int n, d, ans = 0;
+        int n, d, res = 0;
         cin >> n >> d;
-        while (n--)
+        for (int i = 0; i < n; i++)
         {
-            int vi, fi, ci;
-            cin >> vi >> fi >> ci;
-            if (vi * fi / ci >= d)
-                ans++;
+            int v, f, c;
+            cin >> v >> f >> c;
+            if (v * f / c >= d)
+            {
+                res++;
+            }
         }
-        cout << ans << '\n';
+        cout << res << "\n";
     }
 }

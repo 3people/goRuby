@@ -46,4 +46,5 @@ int main()
     }
     ans = min(ans, b_cnt - cnt);
     cout << ans;
+    return 0;
 }
